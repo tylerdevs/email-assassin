@@ -1,0 +1,33 @@
+{
+  "name": "email-assassin",
+  "version": "0.0.1",
+  "description": "Lightweight email validation package with advanced features including MX record validation and blacklisting, dependency free.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "tape ./tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylerdevs/email-assassin.git"
+  },
+  "keywords": [
+    "email",
+    "valid",
+    "validate",
+    "validation",
+    "regex",
+    "MX",
+    "DNS",
+    "RFC2821"
+  ],
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "tape": "^4.13.2"
+  },
+  "author": "Tyler Colwell <tylerqc@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tylerdevs/email-assassin/issues"
+  },
+  "homepage": "https://github.com/tylerdevs/email-assassin#readme"
+}
