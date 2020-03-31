@@ -84,4 +84,4 @@ const emailAssassin =
 
 }
 
-module.exports = emailTools;
+module.exports = emailAssassin;
