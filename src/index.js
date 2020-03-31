@@ -34,12 +34,12 @@ const emailAssassin =
 
       // check blacklist?
       if (settings.blacklist) {
-        if (emailValidate.blacklist(domain)) return {validation:false, reason:'Blacklisted'};
+        if (emailAssassin.blacklist(domain)) return {validation:false, reason:'Blacklisted'};
       }
 
       // check gmail alias?
       if (settings.gmailAlias) {
-        if (emailValidate.gmailAlias(email)) return {validation:false, reason:'GMail Alias Detected'};
+        if (emailAssassin.gmailAlias(email)) return {validation:false, reason:'GMail Alias Detected'};
       }
 
       return {validation: true};

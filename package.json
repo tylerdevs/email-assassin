@@ -1,6 +1,6 @@
 {
   "name": "email-assassin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Lightweight email validation package with advanced features including MX record validation and blacklisting, dependency free.",
   "main": "./src/index.js",
   "scripts": {
